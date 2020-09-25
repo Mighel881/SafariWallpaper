@@ -62,7 +62,7 @@ BOOL enabled;
 
 	[preferences registerBool:&enabled default:nil forKey:@"Enabled"];
 
-	// Miscellaneous
+	// User Interface Based Wallpaper
 	[preferences registerBool:&useDifferentInterfaceWallpapersSwitch default:NO forKey:@"useDifferentInterfaceWallpapers"];
 
 	if (enabled) {

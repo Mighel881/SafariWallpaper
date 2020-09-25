@@ -8,7 +8,7 @@ UIImage* wallpaper;
 
 extern BOOL enabled;
 
-// miscellaneous
+// user interface based wallpaper
 BOOL useDifferentInterfaceWallpapersSwitch = NO;
 
 @interface CatalogViewController : UIViewController
